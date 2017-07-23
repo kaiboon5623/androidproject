@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="androidproject.myapplication">
+
+    <user-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".nayeon"
+            android:label="@string/title_activity_nayeon"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="androidproject.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".galleryactivity"
+            android:label="@string/title_activity_galleryactivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="androidproject.myapplication.MainActivity" />
+        </activity>
+        <activity android:name=".galleryfullimage" />
+        <activity
+            android:name=".videoactivity"
+            android:label="@string/title_activity_videoactivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="androidproject.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".jeongyeon"
+            android:label="@string/title_activity_jeongyeon"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="androidproject.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".momo"
+            android:label="@string/title_activity_momo"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="androidproject.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".sana"
+            android:label="@string/title_activity_sana"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="androidproject.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".jihyo"
+            android:label="@string/title_activity_jihyo"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="androidproject.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".mina"
+            android:label="@string/title_activity_mina"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="androidproject.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".dahyun"
+            android:label="@string/title_activity_dahyun"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="androidproject.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".chaeyeong"
+            android:label="@string/title_activity_chaeyeong"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="androidproject.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".tzuyu"
+            android:label="@string/title_activity_tzuyu"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="androidproject.myapplication.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

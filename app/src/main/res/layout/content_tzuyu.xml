@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="androidproject.myapplication.tzuyu"
+    tools:showIn="@layout/activity_tzuyu"
+    android:background="@drawable/tzuyu1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        android:layout_gravity="bottom"
+        android:background="#fca5af"
+        android:fontFamily="cursive"
+        android:text="Name : Chou Tzu-yu \nDOB: 1999/6/14 \nOrigin: Tainan, Taiwan"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

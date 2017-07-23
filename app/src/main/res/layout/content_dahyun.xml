@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="androidproject.myapplication.dahyun"
+    tools:showIn="@layout/activity_dahyun"
+    android:background="@drawable/dahyun1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            android:layout_gravity="bottom"
+            android:background="#fca5af"
+            android:fontFamily="cursive"
+            android:text="Name : Kim Da-hyun \nDOB: 1998/5/28 \nOrigin: Gyeonggi-do, South Korea"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="androidproject.myapplication.gallery">
+
+
+    <Button
+        android:id="@+id/buttongallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="casual"
+        android:text="Twice Gallery"
+        android:textColor="#ffcc66"
+        android:textStyle="bold"
+        android:background="#ff66b3"
+        android:textSize="60dp" />
+</RelativeLayout>

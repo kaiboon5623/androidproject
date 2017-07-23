@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="androidproject.myapplication.profile"
+    android:weightSum="1"
+    android:background="@drawable/background">
+
+
+    <Button
+        android:id="@+id/BtnNayeon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nayeon"
+        android:layout_weight="0.1"
+        android:background="@android:drawable/edit_text"/>
+
+    <Button
+        android:id="@+id/BtnJeongyeon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jeongyeon"
+        android:layout_weight="0.1"
+        android:background="@android:drawable/edit_text" />
+
+    <Button
+        android:id="@+id/BtnMomo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Momo"
+        android:layout_weight="0.1"
+        android:background="@android:drawable/edit_text"/>
+
+    <Button
+        android:id="@+id/BtnSana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sana"
+        android:layout_weight="0.1"
+        android:background="@android:drawable/edit_text"/>
+
+    <Button
+        android:id="@+id/BtnJihyo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jihyo"
+        android:layout_weight="0.1"
+        android:background="@android:drawable/edit_text"/>
+
+    <Button
+        android:id="@+id/BtnMina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mina"
+        android:layout_weight="0.1"
+        android:background="@android:drawable/edit_text"/>
+
+    <Button
+        android:id="@+id/BtnDahyun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dahyun"
+        android:layout_weight="0.1"
+        android:background="@android:drawable/edit_text"/>
+
+    <Button
+        android:id="@+id/BtnChaeyeong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chaeyeong"
+        android:layout_weight="0.1"
+        android:background="@android:drawable/edit_text"/>
+
+    <Button
+        android:id="@+id/BtnTzuyu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tzuyu"
+        android:layout_weight="0.1"
+        android:background="@android:drawable/edit_text"/>
+
+
+
+
+
+</LinearLayout>
